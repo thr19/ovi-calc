@@ -7,7 +7,8 @@ function createWindow() {
     height: 600,
     resizable: false,
     fullscreenable: false,
-    title: 'Calculator',
+    title: 'OVI-Calc',
+    icon: path.join(__dirname, 'design', 'CALC.png'), // <-- Add this line
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false

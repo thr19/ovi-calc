@@ -8,6 +8,8 @@ A simple desktop calculator built with [Electron](https://www.electronjs.org/) a
 - Support for parentheses, modulo, π, e, square root, and percentage
 - Responsive and modern UI
 
+For UI and CSS special thanks to [kalpeshsingh](https://codepen.io/kalpeshsingh)
+
 ## Getting Started
 
 ### Prerequisites

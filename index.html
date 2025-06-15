@@ -5,42 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>OVI-Calc</title>
   <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <div class="calculator">
-    <div class="display" id="display"></div>
-    <div class="buttons">
-      <button class="button">C</button>
-      <button class="button">(</button>
-      <button class="button">)</button>
-      <button class="button">mod</button>
-      <button class="button">π</button>
-
-      <button class="button operator">7</button>
-      <button class="button operator">8</button>
-      <button class="button operator">9</button>
-      <button class="button">÷</button>
-      <button class="button">e</button>
-
-      <button class="button operator">4</button>
-      <button class="button operator">5</button>
-      <button class="button operator">6</button>
-      <button class="button">×</button>
-      <button class="button">√</button>
-
-      <button class="button operator">1</button>
-      <button class="button operator">2</button>
-      <button class="button operator">3</button>
-      <button class="button">-</button>
-      <button class="button equal">=</button>
-
-      <button class="button operator">0</button>
-      <button class="button">.</button>
-      <button class="button">%</button>
-      <button class="button">+</button>
+ <div class="container">
+  <div class="calc-body">
+    <div class="calc-screen">
+      <div class="calc-operation"></div>
+      <div class="calc-typed">0<span class="blink-me">_</span></div>
+    </div>
+    <div class="calc-button-row">
+      <div class="button c">C</div>
+      <div class="button l">√</div>
+      <div class="button l">mod</div>
+      <div class="button l">/</div>
+    </div>
+    <div class="calc-button-row">
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button l">x</div>
+    </div>
+    <div class="calc-button-row">
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button l">−</div>
+    </div>
+    <div class="calc-button-row">
+      <div class="button">1</div>
+      <div class="button">2</div>
+      <div class="button">3</div>
+      <div class="button l">+</div>
+    </div>
+    <div class="calc-button-row">
+      <div class="button">.</div>
+      <div class="button">0</div>
+      <div class="button">%</div>
+      <div class="button l">=</div>
+      </div>
     </div>
   </div>
       <script src="renderer.js"></script>
-</body>
+      <script src="blinker.js"></script>
+    </body>
 </html>
 
