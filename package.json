@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-linux": "electron-packager . ovi-calc --platform=linux --arch=x64 --icon=design/CALC.png --overwrite"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,8 @@
   "dependencies": {
     "electron": "^36.4.0",
     "mathjs": "^14.5.2"
+  },
+  "devDependencies": {
+    "@electron/packager": "^18.3.6"
   }
 }
-
